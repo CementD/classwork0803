@@ -75,9 +75,7 @@ namespace WinFormsApp2
             {
                 pause = false;
                 if (!worker.IsBusy)
-                {
                     worker.RunWorkerAsync();
-                }
             }
         }
     }
